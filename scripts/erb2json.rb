@@ -44,6 +44,62 @@ def to(events)
   JSON.generate(_to(events))
 end
 
+def _to_by_hash(events)
+  data = []
+
+  events.each do |e|
+    d = {}
+    if e.is_a?(Hash)
+      set_to_hash(d, e)
+    else
+      d['key_code'] = e[0]
+      unless e[1].nil?
+        d['modifiers'] = e[1]
+      end
+    end
+
+    data << d
+  end
+  data
+end
+
+def set_to_hash(d, h)
+  h.each do |k, v|
+    if k == 'set_variable'
+      d[k] = {'name' => v[0], 'value' => v[1]}
+    else
+      d[k] = v
+    end
+  end
+end
+
+def to_by_hash(events)
+  JSON.generate(_to_by_hash(events))
+end
+
+def _variable_if(name, value)
+  data = {}
+  data['type'] = 'variable_if'
+  data['name'] = name
+  data['value'] = value
+  data
+end
+
+def variable_if(name, value)
+  JSON.generate(_variable_if(name, value))
+end
+
+def _variable_unless(name, value)
+  data = {}
+  data['type'] = 'variable_unless'
+  data['name'] = name
+  data['value'] = value
+  data
+end
+
+def variable_unless(name, value)
+  JSON.generate(_variable_unless(name, value))
+end
 
 def each_key(source_keys_list: :source_keys_list, dest_keys_list: :dest_keys_list, from_mandatory_modifiers: [], from_optional_modifiers: [], to_pre_events: [], to_modifiers: [], to_post_events: [], conditions: [], as_json: false)
   data = []
@@ -157,6 +213,14 @@ def frontmost_application(type, app_aliases)
     '^com\.apple\.dt\.Xcode$'
   ]
 
+  jetbrain_ide_identifiers = [
+    '^com\.jetbrains\.CLion',
+    '^com\.jetbrains\.intellij\.ce'
+  ]
+
+  rstudio_identifiers = [
+    '^org\.rstudio\.RStudio'
+  ]
   # ----------------------------------------
 
   bundle_identifiers = []
@@ -180,6 +244,7 @@ def frontmost_application(type, app_aliases)
       bundle_identifiers.concat(vi_bundle_identifiers)
       bundle_identifiers.concat(virtual_machine_bundle_identifiers)
       bundle_identifiers.concat(x11_bundle_identifiers)
+      bundle_identifiers.concat(jetbrain_ide_identifiers)
       bundle_identifiers << '^com\\.microsoft\\.VSCode$'
 
     when 'finder'
@@ -202,6 +267,9 @@ def frontmost_application(type, app_aliases)
 
     when 'xcode'
       bundle_identifiers.concat(xcode_bundle_identifiers)
+
+    when 'jetbrain'
+      bundle_identifiers.concat(jetbrain_ide_identifiers)
 
     else
       $stderr << "unknown app_alias: #{app_alias}\n"
