@@ -136,8 +136,15 @@
                     "type": "basic"
                 },
                 {
+                    <%# unmark by C-g %>
+                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_if("mark_mode", 1) %>],
+                    "from": <%= from("g", ["control"], ["caps_lock", "shift"]) %>,
+                    "to": <%= to_by_hash([{"set_variable" => ["mark_mode", 0]}]) %>,
+                    "type": "basic"
+                },
+                {
                     <%# cancel by C-g %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>],
+                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_unless("mark_mode", 1) %>],
                     "from": <%= from("g", ["control"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([["escape"], {"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"
