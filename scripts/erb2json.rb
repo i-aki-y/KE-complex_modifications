@@ -214,13 +214,17 @@ def frontmost_application(type, app_aliases)
   ]
 
   jetbrain_ide_identifiers = [
-    '^com\.jetbrains\.CLion',
-    '^com\.jetbrains\.intellij\.ce'
+    '^com\.jetbrains\.',
   ]
 
   rstudio_identifiers = [
     '^org\.rstudio\.RStudio'
   ]
+
+  editor_identifiers = [
+    '^com\.microsoft\.VSCode'
+  ]
+
   # ----------------------------------------
 
   bundle_identifiers = []
