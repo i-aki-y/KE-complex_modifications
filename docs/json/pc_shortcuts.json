@@ -124,6 +124,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -147,9 +148,13 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
                 "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
                 "^org\\.mozilla\\.firefox$",
                 "^com\\.google\\.Chrome$",
-                "^com\\.apple\\.Safari$"
+                "^com\\.apple\\.Safari$",
+                "^cz\\.or\\.repo\\.git-gui$",
+                "^com\\.jetbrains\\."
               ]
             }
           ]
@@ -210,6 +215,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -232,7 +238,11 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^cz\\.or\\.repo\\.git-gui$",
+                "^com\\.jetbrains\\."
               ]
             }
           ]
@@ -261,6 +271,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -284,9 +295,13 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
                 "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
                 "^org\\.mozilla\\.firefox$",
                 "^com\\.google\\.Chrome$",
-                "^com\\.apple\\.Safari$"
+                "^com\\.apple\\.Safari$",
+                "^cz\\.or\\.repo\\.git-gui$",
+                "^com\\.jetbrains\\."
               ]
             }
           ]
@@ -347,6 +362,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -369,7 +385,11 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^cz\\.or\\.repo\\.git-gui$",
+                "^com\\.jetbrains\\."
               ]
             }
           ]
@@ -433,6 +453,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -455,7 +476,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -487,6 +510,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -509,7 +533,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -541,6 +567,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -563,7 +590,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -595,6 +624,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -617,7 +647,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -654,6 +686,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -676,7 +709,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -708,6 +743,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -730,7 +766,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -762,6 +800,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -784,7 +823,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -821,6 +862,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -843,7 +885,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -881,6 +925,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -903,7 +948,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -940,6 +987,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -962,7 +1010,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -999,6 +1049,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1021,7 +1072,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1058,6 +1111,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1080,7 +1134,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1117,6 +1173,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1139,7 +1196,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1168,6 +1227,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1190,7 +1250,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1227,6 +1289,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1249,7 +1312,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1286,6 +1351,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1308,7 +1374,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1340,6 +1408,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1362,7 +1431,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1399,6 +1470,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1421,7 +1493,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1458,6 +1532,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1480,7 +1555,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1512,6 +1589,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1534,7 +1612,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1566,6 +1646,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1588,7 +1669,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1625,6 +1708,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1647,7 +1731,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
@@ -1664,9 +1750,6 @@
             "modifiers": {
               "mandatory": [
                 "command"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -1685,6 +1768,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1711,7 +1795,116 @@
       ]
     },
     {
-      "description": "PC-Style Screenshot(PrtSc for whole, Shift+PrtSc to select)",
+      "description": "PC-Style Screenshot to File (PrintScreen to select)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "print_screen",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.teamviewer\\.TeamViewer$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "PC-Style Screenshot to Clipboard (PrintScreen to select)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "print_screen",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_command",
+                "left_control",
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.microsoft\\.rdc$",
+                "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                "^net\\.sf\\.cord$",
+                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                "^com\\.itap-mobile\\.qmote$",
+                "^com\\.nulana\\.remotixmac$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                "^com\\.teamviewer\\.TeamViewer$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.2X\\.Client\\.Mac$",
+                "^com\\.vmware\\.fusion$",
+                "^com\\.vmware\\.horizon$",
+                "^com\\.vmware\\.view$",
+                "^com\\.parallels\\.desktop$",
+                "^com\\.parallels\\.vm$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.vmware\\.proxyApp\\.",
+                "^com\\.parallels\\.winapp\\."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "PC-Style Screenshot (PrintScreen for whole, Shift+PrintScreen to select)",
       "manipulators": [
         {
           "type": "basic",
@@ -1741,6 +1934,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1789,6 +1983,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1815,7 +2010,7 @@
       ]
     },
     {
-      "description": "PC-Style Quit Application(Alt+F4 to Command+Q)",
+      "description": "PC-Style Quit Application (Alt+F4 to Command+Q)",
       "manipulators": [
         {
           "type": "basic",
@@ -1841,6 +2036,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -1891,6 +2087,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -2249,6 +2446,7 @@
               "bundle_identifiers": [
                 "^com\\.microsoft\\.rdc$",
                 "^com\\.microsoft\\.rdc\\.mac$",
+                "^com\\.microsoft\\.rdc\\.macos$",
                 "^com\\.microsoft\\.rdc\\.osx\\.beta$",
                 "^net\\.sf\\.cord$",
                 "^com\\.thinomenon\\.RemoteDesktopConnection$",
@@ -2271,7 +2469,9 @@
                 "^com\\.apple\\.Terminal$",
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyperterm$",
-                "^co\\.zeit\\.hyper$"
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
               ]
             }
           ]
