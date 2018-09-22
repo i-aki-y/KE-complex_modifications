@@ -4,14 +4,14 @@
             "description": "Copy by C-c & Yank by C-y",
             "manipulators": [{
                     <%#  %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>],
                     "from": <%= from("c", ["control"], ["caps_lock", "option"]) %>,
                     "to": <%= to([["c", ["command"]]]) %>,
                     "type": "basic"
                 },
                 {
                     <%#  %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>],
                     "from": <%= from("y", ["control"], ["caps_lock", "option"]) %>,
                     "to": <%= to([["v", ["command"]]]) %>,
                     "type": "basic"
@@ -21,7 +21,7 @@
         {
             "description": "Map C-s to command-f",
             "manipulators": [{
-                "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_unless("C-x", 1) %>],
+                "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>, <%= variable_unless("C-x", 1) %>],
                 "from": <%= from("s", ["control"], ["caps_lock", "option"]) %>,
                 "to": <%= to([["f", ["command"]]]) %>,
                 "type": "basic"
@@ -51,14 +51,14 @@
             "description": "Toggle mark by C-space",
             "manipulators": [{
                     <%# set mark by C-spacebar unless marked %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_unless("mark_mode", 1) %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>, <%= variable_unless("mark_mode", 1) %>],
                     "from": <%= from("spacebar", ["control"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([{"set_variable" => ["mark_mode",1]}]) %>,
                     "type": "basic"
                 },
                 {
                     <%# unset mark by C-spacebar when marked %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_if("mark_mode", 1) %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>, <%= variable_if("mark_mode", 1) %>],
                     "from": <%= from("spacebar", ["control"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([{"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"
@@ -71,7 +71,7 @@
                 from_keys.zip(to_keys) do |from_key, to_key|
                   items += <<-END_ITEM
                     {
-                      "conditions": [#{frontmost_application_unless("emacs_key_bindings_exception")}, #{variable_if("mark_mode", 1)}],
+                      "conditions": [#{frontmost_application_unless(["emacs_key_bindings_exception"])}, #{variable_if("mark_mode", 1)}],
                       "from": #{from(from_key, ["control"], ["caps_lock", "shift"])},
                       "to": #{to([[to_key, ["shift"]]])},
                       "type": "basic"
@@ -89,7 +89,7 @@
                 from_keys.zip(from_mans, to_keys, to_mods) do |from_key, from_man, to_key, to_mod|
                   items += <<-END_ITEM
                     {
-                      "conditions": [#{frontmost_application_unless("emacs_key_bindings_exception")}, #{variable_if("mark_mode", 1)}],
+                      "conditions": [#{frontmost_application_unless(["emacs_key_bindings_exception"])}, #{variable_if("mark_mode", 1)}],
                       "from": #{from(from_key, [from_man], ["caps_lock", "shift"])},
                       "to": #{to([[to_key, [to_mod, "shift"]]])},
                       "type": "basic"
@@ -106,7 +106,7 @@
                 from_keys.zip(from_mans, to_keys) do |from_key, from_man, to_key|
                   items += <<-END_ITEM
                     {
-                      "conditions": [#{frontmost_application_unless("emacs_key_bindings_exception")}, #{variable_if("mark_mode", 1)}],
+                      "conditions": [#{frontmost_application_unless(["emacs_key_bindings_exception"])}, #{variable_if("mark_mode", 1)}],
                       "from": #{from(from_key, [from_man], ["caps_lock", "shift"])},
                       "to": #{to([[to_key, ["shift"]]])},
                       "type": "basic"
@@ -116,35 +116,35 @@
                 items
                 %> {
                     <%# copy %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>],
                     "from": <%= from("w", ["option"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([["c", ["command"]], {"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"
                 },
                 {
                     <%# cut %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>],
                     "from": <%= from("w", ["control"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([["x", ["command"]], {"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"
                 },
                 {
                     <%# cancel %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_if("mark_mode", 1) %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>, <%= variable_if("mark_mode", 1) %>],
                     "from": <%= from("escape", [], []) %>,
                     "to": <%= to_by_hash([["escape"], {"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"
                 },
                 {
                     <%# unmark by C-g %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_if("mark_mode", 1) %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>, <%= variable_if("mark_mode", 1) %>],
                     "from": <%= from("g", ["control"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([{"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"
                 },
                 {
                     <%# cancel by C-g %>
-                    "conditions": [<%= frontmost_application_unless("emacs_key_bindings_exception") %>, <%= variable_unless("mark_mode", 1) %>],
+                    "conditions": [<%= frontmost_application_unless(["emacs_key_bindings_exception"]) %>, <%= variable_unless("mark_mode", 1) %>],
                     "from": <%= from("g", ["control"], ["caps_lock", "shift"]) %>,
                     "to": <%= to_by_hash([["escape"], {"set_variable" => ["mark_mode", 0]}]) %>,
                     "type": "basic"

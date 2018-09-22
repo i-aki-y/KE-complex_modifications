@@ -124,7 +124,8 @@ module Karabiner
                                       BUNDLE_IDENTIFERS[:virtual_machine] +
                                       BUNDLE_IDENTIFERS[:x11] +
                                       BUNDLE_IDENTIFERS[:sublime_text] +
-                                      BUNDLE_IDENTIFERS[:visual_studio_code],
+                                      BUNDLE_IDENTIFERS[:visual_studio_code] +
+                                      BUNDLE_IDENTIFERS[:jetbrains_ide],
     'finder' => BUNDLE_IDENTIFERS[:finder],
     'git_gui' => BUNDLE_IDENTIFERS[:git_gui],
     'jetbrains_ide' => BUNDLE_IDENTIFERS[:jetbrains_ide],
