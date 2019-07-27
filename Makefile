@@ -9,3 +9,7 @@ rebuild:
 
 server:
 	ruby scripts/dev-server.rb
+	
+install:
+	cp docs/json/personal_aki.json ~/.config/karabiner/assets/
+	cp docs/json/emacs_key_bindings.json ~/.config/karabiner/assets/

@@ -41,6 +41,7 @@
             "description": "Undo by C-/",
             "manipulators": [
                 {
+                  "conditions": [<%= frontmost_application_unless(["jetbrains_ide"]) %>, <%= variable_unless("C-x", 1) %>],
                   "from": <%= from("slash", ["control"], []) %>,
                   "to": <%= to([["z", ["command"]]]) %>,
                   "type": "basic"

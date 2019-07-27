@@ -9,6 +9,10 @@ module Karabiner
       '^com\.adiumX\.adiumX$',
     ],
 
+    :dbeaver => [
+      '^org\.jkiss\.dbeaver\.'
+    ],
+
     :browser => [
       '^org\.mozilla\.firefox$',
       '^com\.google\.Chrome$',
@@ -125,7 +129,8 @@ module Karabiner
                                       BUNDLE_IDENTIFERS[:x11] +
                                       BUNDLE_IDENTIFERS[:sublime_text] +
                                       BUNDLE_IDENTIFERS[:visual_studio_code] +
-                                      BUNDLE_IDENTIFERS[:jetbrains_ide],
+                                      BUNDLE_IDENTIFERS[:jetbrains_ide] +
+                                      BUNDLE_IDENTIFERS[:dbeaver],
     'finder' => BUNDLE_IDENTIFERS[:finder],
     'git_gui' => BUNDLE_IDENTIFERS[:git_gui],
     'jetbrains_ide' => BUNDLE_IDENTIFERS[:jetbrains_ide],
